@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,31 @@
     <link rel="stylesheet" href="style.css">
     <title>Lessons Learned</title>
 </head>
+
 <body>
 
     <hearder id="cabecalho">
         <h1 id="titulo">Cabecalho</h1>
     </hearder>
-    
-    <img id="minha_foto" src="https://avatars.githubusercontent.com/u/106778578?v=4" alt="Foto de perfli do aluno   Calebe">
+
+    <img id="minha_foto" src="https://avatars.githubusercontent.com/u/106778578?v=4"
+        alt="Foto de perfli do aluno Calebe">
 
     <section style="border: 3px solid red">
 
-        <h3>Lista de Aprendizados</h3>
-        <article>
+        <article style="border: 3px solid red">
+            <h3>Notas</h3>
+            <p>Para o projeto Lessons-Learned meu foco estava em organizar o display dos elementotos da página.<br>
+                antes de pensar em preenche-la com algum contúdo, queria deixar bem evidente os elentos tipo block, pois
+                só depois da organiz-los, pra mim, fica fácil acrencentar algo dentro deles. Essa foi a primeira
+                experiência que ganhei com o projeto. </p>
+            <p>Outra coisa que percebi, é que o HTML é como se fosse um super editor, com uma lógica de tageamento e
+                designação de atributos muito maior!</p>
+
+        </article>
+
+        <div id="segunda_div">
+            <h3>Lista de Aprendizados</h3>
             <ol id="licoes_aprendidas">
                 <li>Unix & Bash</li>
                 <li>Pesquisa eficiente</li>
@@ -31,9 +45,9 @@
                 <li>JavaScript</li>
                 <li>Logica de Programação</li>
             </ol>
-        </article>
+        </div>
 
-        <article>
+        <div id="primeira_div">
             <h3>Lista de Contúdo a aprender</h3>
             <ul id="licoes_a_aprender">
                 <li>JavaScript: DOM, Eventos e Web Storage</li>
@@ -47,15 +61,16 @@
                 <li>Python</li>
                 <li>Redes e Raspagem de Dados</li>
             </ul>
-        </article>
+        </div>
+
 
     </section>
 
     <footer id="rodape">
         <h3>Rodape</h3>
         <p>colocar informações baseadas em outros sites.</p>
-        <p>Um Site interessante de física: <span><a href="https://www.myphysicslab.com/index-en.html" target="_blank"> myphysicslab.</a></span></p>
-        
+        <p>Um Site interessante de física: <span><a href="https://www.myphysicslab.com/index-en.html" target="_blank">
+                    myphysicslab.</a></span></p>
 
     </footer>
 
