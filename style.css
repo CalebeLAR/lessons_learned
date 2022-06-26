@@ -52,9 +52,9 @@ h1, h3 {
     min-width: 510px;
 }
 
-section {
+main {
     min-width: 1025px;
-    max-width: 85%;
+    max-width: 75%;
 }
 
 article {
@@ -63,4 +63,9 @@ article {
     margin: 3px;
     max-width: 1012px;
     min-width: 516px;
+}
+aside {
+    border: 3px solid red;
+    display: block;
+    margin: 3px;
 }
