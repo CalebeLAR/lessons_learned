@@ -49,6 +49,7 @@ p, #licoes_aprendidas, #licoes_a_aprender {
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: left;
+    line-height: 25px;
     margin: 3px;
 }
 
