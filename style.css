@@ -10,6 +10,7 @@ div {
 main {
     min-width: 1025px;
     max-width: 75%;
+    padding:30px;
 }
 
 article {
@@ -72,6 +73,7 @@ table tr#table_top td {
     width: 150px;
     border: 3px solid red;
     margin-top: 106px;
+    padding: 3px;
 }
 
 #rodape {
