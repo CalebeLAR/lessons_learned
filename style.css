@@ -1,27 +1,18 @@
-div, main, article, table, tr, td, aside, footer, header, h1, h2, h3, ol, ul{
+div, main, section, article, table, tr, td, aside, footer, header, h1, h2, h3, ol, ul{
     border: 3px solid red;
     margin: 3px;
+}
+
+body {
+    background-color: rgb(253, 251, 251);
 }
 
 div {
     display: inline-block;
 }
 
-main {
-    min-width: 1025px;
-    max-width: 75%;
-    padding:30px;
-}
-
-article {
-    max-width: 1012px;
-    min-width: 516px;
-}
-
-aside {
-    display: block;
-    max-width: 1012px;
-    min-width: 516px;
+main{
+    display: inline-block;
 }
 
 h1, h2, h3 {
@@ -31,10 +22,6 @@ h1, h2, h3 {
 
 h3 {
     min-width: 485px;
-}
-
-body {
-    background-color: rgb(253, 251, 251);
 }
 
 a {
@@ -58,6 +45,9 @@ table tr#table_top td {
     border: 3px solid black;
 }
 
+table {
+    margin-top: 10px;
+}
 
 #licoes_aprendidas, #licoes_a_aprender {
     display: block;
@@ -67,7 +57,8 @@ table tr#table_top td {
     top: 0px;
     position: fixed;
     display: inline;
-    width: 1025px;
+    width: 99%;
+    
 }
 
 #minha_foto {
@@ -75,10 +66,22 @@ table tr#table_top td {
     border: 3px solid red;
     margin-top: 106px;
     padding: 3px;
+    display: block;
 }
 
 #rodape {
     height: auto;
     margin-top: 3px;
+    display: block;
+}
+
+#lateral {
+    width: 600px;
+
+}
+
+.lado-esquerdo, .lado-direito {
+    display: inline-block;
+    width: 270px;
 }
 
