@@ -1,6 +1,26 @@
-div, main, article, aside, footer, header, h1, h2, h3, ol, ul{
+div, main, article, table, tr, td, aside, footer, header, h1, h2, h3, ol, ul{
     border: 3px solid red;
     margin: 3px;
+}
+
+div {
+    display: inline-block;
+}
+
+main {
+    min-width: 1025px;
+    max-width: 75%;
+}
+
+article {
+    max-width: 1012px;
+    min-width: 516px;
+}
+
+aside {
+    display: block;
+    max-width: 1012px;
+    min-width: 516px;
 }
 
 h1, h2, h3 {
@@ -20,6 +40,8 @@ a {
     transform: none;
     text-decoration: none;
     display: inline;
+    color: darkblue;
+    letter-spacing: 5px
 }
 
 p, #licoes_aprendidas, #licoes_a_aprender {
@@ -28,6 +50,12 @@ p, #licoes_aprendidas, #licoes_a_aprender {
     text-align: left;
     margin: 3px;
 }
+
+table tr#table_top td {
+    background-color: rgba(13, 227, 13, 0.557);
+    border: 3px solid black;
+}
+
 
 #licoes_aprendidas, #licoes_a_aprender {
     display: block;
@@ -51,22 +79,3 @@ p, #licoes_aprendidas, #licoes_a_aprender {
     margin-top: 3px;
 }
 
-div {
-    display: inline-block;
-}
-
-main {
-    min-width: 1025px;
-    max-width: 75%;
-}
-
-article {
-    max-width: 1012px;
-    min-width: 516px;
-}
-
-aside {
-    display: block;
-    max-width: 1012px;
-    min-width: 516px;
-}
