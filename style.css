@@ -80,7 +80,12 @@ table {
 
 }
 
-.lado-esquerdo, .lado-direito {
+.lado-esquerdo {
+    display: inline-block;
+    width: 270px;
+}
+.lado-direito {
+    position: absolute;
     display: inline-block;
     width: 270px;
 }
